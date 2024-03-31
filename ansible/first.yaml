@@ -1,0 +1,14 @@
+
+---
+- name: ping
+  hosts: all
+  gather_facts: false
+  become: yes
+  become_user: root
+  #become_password: root12
+  tasks:
+    - name: ping server
+      ansible.builtin.ping:
+    - name: reboot server
+      ansible.builtin.reboot:
+             

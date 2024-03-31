@@ -1,0 +1,6 @@
+[all]
+172.17.219.205
+[all:vars]
+ansible_connection=ssh
+ansible_user=unixsupport
+ansible_ssh_pass=T1s@dmin12
